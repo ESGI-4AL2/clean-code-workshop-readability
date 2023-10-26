@@ -9,7 +9,7 @@ const getNumberAsFizzBuzz = (numberToParse) => {
     const isFizz = isMultipleOf(FIZZ_MULTIPLE, numberToParse);
     const isBuzz = isMultipleOf(BUZZ_MULTIPLE, numberToParse);
 
-    const fizzBuzz = ""
+    let fizzBuzz = ""
 
     if (isFizz) {
         fizzBuzz += FIZZ_MULTIPLE;
